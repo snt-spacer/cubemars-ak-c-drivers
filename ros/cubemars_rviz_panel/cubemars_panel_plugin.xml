@@ -1,0 +1,7 @@
+<library path="cubemars_rviz_panel">
+  <class name="cubemars_rviz_panel/CubemarsPanel"
+         type="cubemars_rviz_panel::CubemarsPanel"
+         base_class_type="rviz_common::Panel">
+    <description>CubeMars MIT motor control panel</description>
+  </class>
+</library>

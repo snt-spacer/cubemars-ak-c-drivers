@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>cubemars_rviz_panel</name>
+  <version>0.0.1</version>
+  <description>RViz2 panel plugin for CubeMars AK motors MIT-mode control</description>
+  <maintainer email="marcotr@ethz.ch">Marco Trentini</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rviz_common</depend>
+  <depend>pluginlib</depend>
+  <depend>cubemars_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <rviz plugin="${prefix}/cubemars_panel_plugin.xml"/>
+  </export>
+</package>

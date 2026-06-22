@@ -1,0 +1,14 @@
+cubemars_controller_node:
+  ros__parameters:
+    can_interface: "can0"
+    motor_model: "AK40-10"  # available models:
+                             #   AK10-9  (v_max=50 rad/s, t_max=65 Nm)
+                             #   AK60-6  (v_max=45 rad/s, t_max=15 Nm)
+                             #   AK70-10 (v_max=50 rad/s, t_max=25 Nm)
+                             #   AK80-6  (v_max=76 rad/s, t_max=12 Nm)
+                             #   AK80-9  (v_max=50 rad/s, t_max=18 Nm)
+                             #   AK80-64 (v_max=8  rad/s, t_max=144 Nm)
+                             #   AK80-8  (v_max=37.5 rad/s, t_max=32 Nm)
+                             #   AK45-36 (v_max=6  rad/s, t_max=34 Nm)
+                             #   AK45-10 (v_max=20 rad/s, t_max=8 Nm)
+                             #   AK40-10 (v_max=45.5 rad/s, t_max=5 Nm)
